@@ -1,0 +1,7 @@
+FROM postgres:latest
+
+ENV POSTGRES_DB=nodedb
+ENV POSTGRES_USER=root
+ENV POSTGRES_PASSWORD=root
+
+EXPOSE 5432
